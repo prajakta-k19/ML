@@ -7,8 +7,8 @@ data = [
     ['Shambhavi', 22 , 'Bihar', '831012','23052811']
 ]
 
-with open('main.csv', 'w', newline='') as csvfile:
+with open('input.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(data)
 
-print("CSV file 'main.csv' created successfully.")
+print("CSV file 'input.csv' created successfully.")
